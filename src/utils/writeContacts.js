@@ -16,5 +16,3 @@ export const writeContacts = async (updatedContacts) => {
     console.error('Помилка запису у файл', error);
   }
 };
-
-writeContacts({ job: 'teacher' });
